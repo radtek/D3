@@ -1,0 +1,3697 @@
+<!-- D3MDDB V6.07.0004 -->
+<APALDBData>
+	<DatabaseList>
+		<Database Alias="D3MDDB">
+			<VersionMajor>6</VersionMajor>
+			<VersionMinor>7</VersionMinor>
+			<VersionRevision>4</VersionRevision>
+			<EntityList Name="D3MetaDatabase">
+				<Entity>
+					<ID NULL="0">2</ID>
+					<Alias NULL="0">D3HSDB</Alias>
+					<VersionMajor NULL="0">6</VersionMajor>
+					<VersionMinor NULL="0">7</VersionMinor>
+					<VersionRevision NULL="0">2</VersionRevision>
+					<InstanceInterface NULL="0">D3HSDB</InstanceInterface>
+					<ProsaName NULL="0">D3 Help System Database</ProsaName>
+					<Flags NULL="0">1</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="0">SGVscCBzeXN0ZW0gZGF0YWJhc2UgZm9yIEQz</Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">3</ID>
+					<Alias NULL="0">SCHOOLDB</Alias>
+					<VersionMajor NULL="0">6</VersionMajor>
+					<VersionMinor NULL="0">7</VersionMinor>
+					<VersionRevision NULL="0">1</VersionRevision>
+					<InstanceInterface NULL="0">SCHOOLDB</InstanceInterface>
+					<ProsaName NULL="0">School Database</ProsaName>
+					<Flags NULL="0">1</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+			</EntityList>
+			<EntityList Name="D3MetaEntity">
+				<Entity>
+					<ID NULL="0">104</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1015.000000</SequenceNo>
+					<Name NULL="0">HSTopic</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopic</InstanceClass>
+					<InstanceInterface NULL="0">HSTopic</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Help topic</ProsaName>
+					<Alias NULL="0">HSTopic</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">105</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1016.000000</SequenceNo>
+					<Name NULL="0">HSTopicAssociation</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicAssociation</InstanceClass>
+					<InstanceInterface NULL="0">HSTopicAssociation</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="1"></ProsaName>
+					<Alias NULL="0">HSTopicAssociation</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">106</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1017.000000</SequenceNo>
+					<Name NULL="0">HSTopicLink</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicLink</InstanceClass>
+					<InstanceInterface NULL="0">HSTopicLink</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="1"></ProsaName>
+					<Alias NULL="0">HSTopicLink</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">107</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1020.000000</SequenceNo>
+					<Name NULL="0">HSMetaDatabaseTopic</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSMetaDatabaseTopic</InstanceClass>
+					<InstanceInterface NULL="0">HSMetaDatabaseTopic</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Meta database topic</ProsaName>
+					<Alias NULL="0">HSMetaDatabaseTopic</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">108</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1021.000000</SequenceNo>
+					<Name NULL="0">HSMetaEntityTopic</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSMetaEntityTopic</InstanceClass>
+					<InstanceInterface NULL="0">HSMetaEntityTopic</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Meta entity topic</ProsaName>
+					<Alias NULL="0">HSMetaEntityTopic</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">109</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1022.000000</SequenceNo>
+					<Name NULL="0">HSMetaColumnTopic</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSMetaColumnTopic</InstanceClass>
+					<InstanceInterface NULL="0">HSMetaColumnTopic</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Meta column topic</ProsaName>
+					<Alias NULL="0">HSMetaColumnTopic</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">110</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1023.000000</SequenceNo>
+					<Name NULL="0">HSMetaKeyTopic</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSMetaKeyTopic</InstanceClass>
+					<InstanceInterface NULL="0">HSMetaKeyTopic</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Meta key topic</ProsaName>
+					<Alias NULL="0">HSMetaKeyTopic</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">111</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1024.000000</SequenceNo>
+					<Name NULL="0">HSMetaRelationTopic</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSMetaRelationTopic</InstanceClass>
+					<InstanceInterface NULL="0">HSMetaRelationTopic</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Meta relation topic</ProsaName>
+					<Alias NULL="0">HSMetaRelationTopic</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">112</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1019.000000</SequenceNo>
+					<Name NULL="0">HSResourceUsage</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSResourceUsage</InstanceClass>
+					<InstanceInterface NULL="0">HSResourceUsage</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Resource usage</ProsaName>
+					<Alias NULL="0">HSResourceUsage</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">113</ID>
+					<MetaDatabaseID NULL="0">2</MetaDatabaseID>
+					<SequenceNo NULL="0">1018.000000</SequenceNo>
+					<Name NULL="0">HSResource</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSResource</InstanceClass>
+					<InstanceInterface NULL="0">HSResource</InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Help resource</ProsaName>
+					<Alias NULL="0">HSResource</Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">124</ID>
+					<MetaDatabaseID NULL="0">3</MetaDatabaseID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">Student</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Student</ProsaName>
+					<Alias NULL="1"></Alias>
+					<Flags NULL="0">32</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">125</ID>
+					<MetaDatabaseID NULL="0">3</MetaDatabaseID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">Teacher</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Teacher</ProsaName>
+					<Alias NULL="1"></Alias>
+					<Flags NULL="0">32</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">126</ID>
+					<MetaDatabaseID NULL="0">3</MetaDatabaseID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">Subject</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Subject</ProsaName>
+					<Alias NULL="1"></Alias>
+					<Flags NULL="0">32</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">127</ID>
+					<MetaDatabaseID NULL="0">3</MetaDatabaseID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<Name NULL="0">SubjectClass</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Class</ProsaName>
+					<Alias NULL="1"></Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">128</ID>
+					<MetaDatabaseID NULL="0">3</MetaDatabaseID>
+					<SequenceNo NULL="0">5.000000</SequenceNo>
+					<Name NULL="0">Enrolment</Name>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<JSDetailViewClass NULL="1"></JSDetailViewClass>
+					<ProsaName NULL="0">Enrolment</ProsaName>
+					<Alias NULL="1"></Alias>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">15</AccessRights>
+					<Description NULL="1"></Description>
+				</Entity>
+			</EntityList>
+			<EntityList Name="D3MetaColumn">
+				<Entity>
+					<ID NULL="0">1279</ID>
+					<MetaEntityID NULL="0">104</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">ID</Name>
+					<ProsaName NULL="0">Unique ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">526</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="0">VW5pcXVlIGlkZW50aWZpZXI=</Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1280</ID>
+					<MetaEntityID NULL="0">104</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">Title</Name>
+					<ProsaName NULL="0">Title</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">256</MaxLength>
+					<Flags NULL="0">1028</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1281</ID>
+					<MetaEntityID NULL="0">104</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">MarkupText</Name>
+					<ProsaName NULL="0">Markup text</ProsaName>
+					<Type NULL="0">9</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">1536</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="0">APALUI.widget.RTEObjectRowView</JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1282</ID>
+					<MetaEntityID NULL="0">104</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">PlainText</Name>
+					<ProsaName NULL="0">Plain text</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">2097152</MaxLength>
+					<Flags NULL="0">514</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1283</ID>
+					<MetaEntityID NULL="0">104</MetaEntityID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<Name NULL="0">Targets</Name>
+					<ProsaName NULL="0">Applies to the projects</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">640</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">2147483647</DefaultValue>
+					<Description NULL="0">U3BlY2lmaWVzIHRoZSBwcm9qZWN0cyB0aGlzIHRvcGljIGFwcGxpZXMgdG8u</Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1284</ID>
+					<MetaEntityID NULL="0">105</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">ParentTopicID</Name>
+					<ProsaName NULL="0">Parent topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1285</ID>
+					<MetaEntityID NULL="0">105</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">ChildTopicID</Name>
+					<ProsaName NULL="0">Child topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1286</ID>
+					<MetaEntityID NULL="0">105</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">SequenceNo</Name>
+					<ProsaName NULL="0">Sequence no</ProsaName>
+					<Type NULL="0">7</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">16</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0.000000</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1287</ID>
+					<MetaEntityID NULL="0">106</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">FromTopicID</Name>
+					<ProsaName NULL="0">From topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1288</ID>
+					<MetaEntityID NULL="0">106</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">ToTopicID</Name>
+					<ProsaName NULL="0">To topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1289</ID>
+					<MetaEntityID NULL="0">107</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">TopicID</Name>
+					<ProsaName NULL="0">Topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1290</ID>
+					<MetaEntityID NULL="0">107</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">MetaDatabaseAlias</Name>
+					<ProsaName NULL="0">Database</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="0">APALUI.widget.MetaDatabaseLinkView</JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1291</ID>
+					<MetaEntityID NULL="0">108</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">TopicID</Name>
+					<ProsaName NULL="0">Topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1292</ID>
+					<MetaEntityID NULL="0">108</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">MetaDatabaseAlias</Name>
+					<ProsaName NULL="0">Database</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">6</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1293</ID>
+					<MetaEntityID NULL="0">108</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">MetaEntityName</Name>
+					<ProsaName NULL="0">Entity</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="0">APALUI.widget.MetaEntityLinkView</JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1294</ID>
+					<MetaEntityID NULL="0">109</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">TopicID</Name>
+					<ProsaName NULL="0">Topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1295</ID>
+					<MetaEntityID NULL="0">109</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">MetaDatabaseAlias</Name>
+					<ProsaName NULL="0">Database</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">6</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1296</ID>
+					<MetaEntityID NULL="0">109</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">MetaEntityName</Name>
+					<ProsaName NULL="0">Entity</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">6</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1297</ID>
+					<MetaEntityID NULL="0">109</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">MetaColumnName</Name>
+					<ProsaName NULL="0">Column</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="0">APALUI.widget.MetaColumnLinkView</JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1298</ID>
+					<MetaEntityID NULL="0">110</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">TopicID</Name>
+					<ProsaName NULL="0">Topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1299</ID>
+					<MetaEntityID NULL="0">110</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">MetaDatabaseAlias</Name>
+					<ProsaName NULL="0">Database</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">6</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1300</ID>
+					<MetaEntityID NULL="0">110</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">MetaEntityName</Name>
+					<ProsaName NULL="0">Entity</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">6</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1301</ID>
+					<MetaEntityID NULL="0">110</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">MetaKeyName</Name>
+					<ProsaName NULL="0">Key</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="0">APALUI.widget.MetaKeyLinkView</JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1302</ID>
+					<MetaEntityID NULL="0">111</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">TopicID</Name>
+					<ProsaName NULL="0">Topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1303</ID>
+					<MetaEntityID NULL="0">111</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">MetaDatabaseAlias</Name>
+					<ProsaName NULL="0">Database</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">6</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1304</ID>
+					<MetaEntityID NULL="0">111</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">MetaEntityName</Name>
+					<ProsaName NULL="0">Entity</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">6</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1305</ID>
+					<MetaEntityID NULL="0">111</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">MetaRelationName</Name>
+					<ProsaName NULL="0">Relation</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">64</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="0">APALUI.widget.MetaRelationLinkView</JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1307</ID>
+					<MetaEntityID NULL="0">112</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">TopicID</Name>
+					<ProsaName NULL="0">Topic ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1308</ID>
+					<MetaEntityID NULL="0">112</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">ResourceID</Name>
+					<ProsaName NULL="0">Resource ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">518</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1309</ID>
+					<MetaEntityID NULL="0">113</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">ID</Name>
+					<ProsaName NULL="0">ID</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">526</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1310</ID>
+					<MetaEntityID NULL="0">113</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">Name</Name>
+					<ProsaName NULL="0">Name</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">128</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1311</ID>
+					<MetaEntityID NULL="0">113</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">Description</Name>
+					<ProsaName NULL="0">Description</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">2048</MaxLength>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1312</ID>
+					<MetaEntityID NULL="0">113</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">RawData</Name>
+					<ProsaName NULL="0">Raw resource data</ProsaName>
+					<Type NULL="0">9</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">1536</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="0">APALUI.widget.MimeTypeObjectRowView</JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1313</ID>
+					<MetaEntityID NULL="0">113</MetaEntityID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<Name NULL="0">Type</Name>
+					<ProsaName NULL="0">Mime type</ProsaName>
+					<Type NULL="0">6</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">11</MaxLength>
+					<Flags NULL="0">68</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="0">0</DefaultValue>
+					<Description NULL="0">VGhlIHJlc291cmNlcyBtaW0gdHlwZQ==</Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1616</ID>
+					<MetaEntityID NULL="0">124</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">ID</Name>
+					<ProsaName NULL="0">ID</ProsaName>
+					<Type NULL="0">5</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="0">0</FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">12</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1617</ID>
+					<MetaEntityID NULL="0">124</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">FirstName</Name>
+					<ProsaName NULL="0">First Name</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">30</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1618</ID>
+					<MetaEntityID NULL="0">124</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">FamilyName</Name>
+					<ProsaName NULL="0">Family Name</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">30</MaxLength>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1619</ID>
+					<MetaEntityID NULL="0">124</MetaEntityID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<Name NULL="0">DOB</Name>
+					<ProsaName NULL="0">Date Of Birth</ProsaName>
+					<Type NULL="0">8</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1620</ID>
+					<MetaEntityID NULL="0">125</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">ID</Name>
+					<ProsaName NULL="0">ID</ProsaName>
+					<Type NULL="0">5</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">12</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1621</ID>
+					<MetaEntityID NULL="0">125</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">FirstName</Name>
+					<ProsaName NULL="0">First Name</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">30</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1622</ID>
+					<MetaEntityID NULL="0">125</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">FamilyName</Name>
+					<ProsaName NULL="0">Family Name</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">30</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1623</ID>
+					<MetaEntityID NULL="0">126</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">Name</Name>
+					<ProsaName NULL="0">Subject Name</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">30</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1624</ID>
+					<MetaEntityID NULL="0">126</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">Level</Name>
+					<ProsaName NULL="0">Level</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">10</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1625</ID>
+					<MetaEntityID NULL="0">127</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">SubjectID</Name>
+					<ProsaName NULL="0">Subject ID</ProsaName>
+					<Type NULL="0">5</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1626</ID>
+					<MetaEntityID NULL="0">127</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">TeacherID</Name>
+					<ProsaName NULL="0">Teacher ID</ProsaName>
+					<Type NULL="0">5</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1627</ID>
+					<MetaEntityID NULL="0">127</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">Room</Name>
+					<ProsaName NULL="0">Room Number</ProsaName>
+					<Type NULL="0">1</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">10</MaxLength>
+					<Flags NULL="0">0</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1628</ID>
+					<MetaEntityID NULL="0">127</MetaEntityID>
+					<SequenceNo NULL="0">0.500000</SequenceNo>
+					<Name NULL="0">ID</Name>
+					<ProsaName NULL="0">Subject Class ID</ProsaName>
+					<Type NULL="0">5</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">12</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1629</ID>
+					<MetaEntityID NULL="0">128</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">SubjectClassID</Name>
+					<ProsaName NULL="0">Class ID</ProsaName>
+					<Type NULL="0">5</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1630</ID>
+					<MetaEntityID NULL="0">128</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">StudentID</Name>
+					<ProsaName NULL="0">Student</ProsaName>
+					<Type NULL="0">5</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">4</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">1631</ID>
+					<MetaEntityID NULL="0">126</MetaEntityID>
+					<SequenceNo NULL="0">0.500000</SequenceNo>
+					<Name NULL="0">ID</Name>
+					<ProsaName NULL="0">Subject ID</ProsaName>
+					<Type NULL="0">5</Type>
+					<Unit NULL="0">0</Unit>
+					<FloatPrecision NULL="1"></FloatPrecision>
+					<MaxLength NULL="0">0</MaxLength>
+					<Flags NULL="0">12</Flags>
+					<AccessRights NULL="0">3</AccessRights>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<DefaultValue NULL="1"></DefaultValue>
+					<Description NULL="1"></Description>
+				</Entity>
+			</EntityList>
+			<EntityList Name="D3MetaColumnChoice">
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<ChoiceVal NULL="0">1</ChoiceVal>
+					<ChoiceDesc NULL="0">AGI</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">1.500000</SequenceNo>
+					<ChoiceVal NULL="0">32768</ChoiceVal>
+					<ChoiceDesc NULL="0">AUTOVLB</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<ChoiceVal NULL="0">2</ChoiceVal>
+					<ChoiceDesc NULL="0">CONAGRA</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">2.500000</SequenceNo>
+					<ChoiceVal NULL="0">8192</ChoiceVal>
+					<ChoiceDesc NULL="0">DELMONTE</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">2.600000</SequenceNo>
+					<ChoiceVal NULL="0">16384</ChoiceVal>
+					<ChoiceDesc NULL="0">DREYERS</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<ChoiceVal NULL="0">4</ChoiceVal>
+					<ChoiceDesc NULL="0">IBM</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<ChoiceVal NULL="0">8</ChoiceVal>
+					<ChoiceDesc NULL="0">IBMKRAFT</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">5.000000</SequenceNo>
+					<ChoiceVal NULL="0">16</ChoiceVal>
+					<ChoiceDesc NULL="0">KRAFT</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">6.000000</SequenceNo>
+					<ChoiceVal NULL="0">32</ChoiceVal>
+					<ChoiceDesc NULL="0">NESTLE</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">6.500000</SequenceNo>
+					<ChoiceVal NULL="0">4096</ChoiceVal>
+					<ChoiceDesc NULL="0">PEPSI</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">7.000000</SequenceNo>
+					<ChoiceVal NULL="0">64</ChoiceVal>
+					<ChoiceDesc NULL="0">PGSAP</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">7.500000</SequenceNo>
+					<ChoiceVal NULL="0">65536</ChoiceVal>
+					<ChoiceDesc NULL="0">PRIME</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">8.000000</SequenceNo>
+					<ChoiceVal NULL="0">128</ChoiceVal>
+					<ChoiceDesc NULL="0">RTCIS</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">9.000000</SequenceNo>
+					<ChoiceVal NULL="0">256</ChoiceVal>
+					<ChoiceDesc NULL="0">SAP</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">10.000000</SequenceNo>
+					<ChoiceVal NULL="0">512</ChoiceVal>
+					<ChoiceDesc NULL="0">SCHENCK</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">11.000000</SequenceNo>
+					<ChoiceVal NULL="0">1024</ChoiceVal>
+					<ChoiceDesc NULL="0">SMUCKERS</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1283</MetaColumnID>
+					<SequenceNo NULL="0">12.000000</SequenceNo>
+					<ChoiceVal NULL="0">2048</ChoiceVal>
+					<ChoiceDesc NULL="0">UNILEVER</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<ChoiceVal NULL="0">1</ChoiceVal>
+					<ChoiceDesc NULL="0">application/envoy (evy)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<ChoiceVal NULL="0">2</ChoiceVal>
+					<ChoiceDesc NULL="0">application/fractals (fif)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<ChoiceVal NULL="0">3</ChoiceVal>
+					<ChoiceDesc NULL="0">application/futuresplash (spl)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<ChoiceVal NULL="0">4</ChoiceVal>
+					<ChoiceDesc NULL="0">application/hta (hta)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">5.000000</SequenceNo>
+					<ChoiceVal NULL="0">5</ChoiceVal>
+					<ChoiceDesc NULL="0">application/internet-property-stream (acx)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">6.000000</SequenceNo>
+					<ChoiceVal NULL="0">6</ChoiceVal>
+					<ChoiceDesc NULL="0">application/mac-binhex40 (hqx)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">7.000000</SequenceNo>
+					<ChoiceVal NULL="0">7</ChoiceVal>
+					<ChoiceDesc NULL="0">application/msword (doc)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">8.000000</SequenceNo>
+					<ChoiceVal NULL="0">8</ChoiceVal>
+					<ChoiceDesc NULL="0">application/msword (dot)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">9.000000</SequenceNo>
+					<ChoiceVal NULL="0">9</ChoiceVal>
+					<ChoiceDesc NULL="0">application/octet-stream (*)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">10.000000</SequenceNo>
+					<ChoiceVal NULL="0">10</ChoiceVal>
+					<ChoiceDesc NULL="0">application/octet-stream (bin)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">11.000000</SequenceNo>
+					<ChoiceVal NULL="0">11</ChoiceVal>
+					<ChoiceDesc NULL="0">application/octet-stream (class)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">12.000000</SequenceNo>
+					<ChoiceVal NULL="0">12</ChoiceVal>
+					<ChoiceDesc NULL="0">application/octet-stream (dms)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">13.000000</SequenceNo>
+					<ChoiceVal NULL="0">13</ChoiceVal>
+					<ChoiceDesc NULL="0">application/octet-stream (exe)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">14.000000</SequenceNo>
+					<ChoiceVal NULL="0">14</ChoiceVal>
+					<ChoiceDesc NULL="0">application/octet-stream (lha)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">15.000000</SequenceNo>
+					<ChoiceVal NULL="0">15</ChoiceVal>
+					<ChoiceDesc NULL="0">application/octet-stream (lzh)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">16.000000</SequenceNo>
+					<ChoiceVal NULL="0">16</ChoiceVal>
+					<ChoiceDesc NULL="0">application/oda (oda)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">17.000000</SequenceNo>
+					<ChoiceVal NULL="0">17</ChoiceVal>
+					<ChoiceDesc NULL="0">application/olescript (axs)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">18.000000</SequenceNo>
+					<ChoiceVal NULL="0">18</ChoiceVal>
+					<ChoiceDesc NULL="0">application/pdf (pdf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">19.000000</SequenceNo>
+					<ChoiceVal NULL="0">19</ChoiceVal>
+					<ChoiceDesc NULL="0">application/pics-rules (prf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">20.000000</SequenceNo>
+					<ChoiceVal NULL="0">20</ChoiceVal>
+					<ChoiceDesc NULL="0">application/pkcs10 (p10)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">21.000000</SequenceNo>
+					<ChoiceVal NULL="0">21</ChoiceVal>
+					<ChoiceDesc NULL="0">application/pkix-crl (crl)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">22.000000</SequenceNo>
+					<ChoiceVal NULL="0">22</ChoiceVal>
+					<ChoiceDesc NULL="0">application/postscript (ai)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">23.000000</SequenceNo>
+					<ChoiceVal NULL="0">23</ChoiceVal>
+					<ChoiceDesc NULL="0">application/postscript (eps)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">24.000000</SequenceNo>
+					<ChoiceVal NULL="0">24</ChoiceVal>
+					<ChoiceDesc NULL="0">application/postscript (ps)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">25.000000</SequenceNo>
+					<ChoiceVal NULL="0">25</ChoiceVal>
+					<ChoiceDesc NULL="0">application/rtf (rtf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">26.000000</SequenceNo>
+					<ChoiceVal NULL="0">26</ChoiceVal>
+					<ChoiceDesc NULL="0">application/set-payment-initiation (setpay)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">27.000000</SequenceNo>
+					<ChoiceVal NULL="0">27</ChoiceVal>
+					<ChoiceDesc NULL="0">application/set-registration-initiation (setreg)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">28.000000</SequenceNo>
+					<ChoiceVal NULL="0">28</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-excel (xla)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">29.000000</SequenceNo>
+					<ChoiceVal NULL="0">29</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-excel (xlc)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">30.000000</SequenceNo>
+					<ChoiceVal NULL="0">30</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-excel (xlm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">31.000000</SequenceNo>
+					<ChoiceVal NULL="0">31</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-excel (xls)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">32.000000</SequenceNo>
+					<ChoiceVal NULL="0">32</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-excel (xlt)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">33.000000</SequenceNo>
+					<ChoiceVal NULL="0">33</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-excel (xlw)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">34.000000</SequenceNo>
+					<ChoiceVal NULL="0">34</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-outlook (msg)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">35.000000</SequenceNo>
+					<ChoiceVal NULL="0">35</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-pkicertstore (sst)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">36.000000</SequenceNo>
+					<ChoiceVal NULL="0">36</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-pkiseccat (cat)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">37.000000</SequenceNo>
+					<ChoiceVal NULL="0">37</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-pkistl (stl)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">38.000000</SequenceNo>
+					<ChoiceVal NULL="0">38</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-powerpoint (pot)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">39.000000</SequenceNo>
+					<ChoiceVal NULL="0">39</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-powerpoint (pps)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">40.000000</SequenceNo>
+					<ChoiceVal NULL="0">40</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-powerpoint (ppt)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">41.000000</SequenceNo>
+					<ChoiceVal NULL="0">41</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-project (mpp)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">42.000000</SequenceNo>
+					<ChoiceVal NULL="0">42</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-works (wcm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">43.000000</SequenceNo>
+					<ChoiceVal NULL="0">43</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-works (wdb)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">44.000000</SequenceNo>
+					<ChoiceVal NULL="0">44</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-works (wks)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">45.000000</SequenceNo>
+					<ChoiceVal NULL="0">45</ChoiceVal>
+					<ChoiceDesc NULL="0">application/vnd.ms-works (wps)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">46.000000</SequenceNo>
+					<ChoiceVal NULL="0">46</ChoiceVal>
+					<ChoiceDesc NULL="0">application/winhlp (hlp)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">47.000000</SequenceNo>
+					<ChoiceVal NULL="0">47</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-bcpio (bcpio)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">48.000000</SequenceNo>
+					<ChoiceVal NULL="0">48</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-cdf (cdf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">49.000000</SequenceNo>
+					<ChoiceVal NULL="0">49</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-compress (z)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">50.000000</SequenceNo>
+					<ChoiceVal NULL="0">50</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-compressed (tgz)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">51.000000</SequenceNo>
+					<ChoiceVal NULL="0">51</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-cpio (cpio)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">52.000000</SequenceNo>
+					<ChoiceVal NULL="0">52</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-csh (csh)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">53.000000</SequenceNo>
+					<ChoiceVal NULL="0">53</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-director (dcr)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">54.000000</SequenceNo>
+					<ChoiceVal NULL="0">54</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-director (dir)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">55.000000</SequenceNo>
+					<ChoiceVal NULL="0">55</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-director (dxr)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">56.000000</SequenceNo>
+					<ChoiceVal NULL="0">56</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-dvi (dvi)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">57.000000</SequenceNo>
+					<ChoiceVal NULL="0">57</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-gtar (gtar)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">58.000000</SequenceNo>
+					<ChoiceVal NULL="0">58</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-gzip (gz)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">59.000000</SequenceNo>
+					<ChoiceVal NULL="0">59</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-hdf (hdf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">60.000000</SequenceNo>
+					<ChoiceVal NULL="0">60</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-internet-signup (ins)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">61.000000</SequenceNo>
+					<ChoiceVal NULL="0">61</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-internet-signup (isp)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">62.000000</SequenceNo>
+					<ChoiceVal NULL="0">62</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-iphone (iii)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">63.000000</SequenceNo>
+					<ChoiceVal NULL="0">63</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-javascript (js)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">64.000000</SequenceNo>
+					<ChoiceVal NULL="0">64</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-latex (latex)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">65.000000</SequenceNo>
+					<ChoiceVal NULL="0">65</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msaccess (mdb)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">66.000000</SequenceNo>
+					<ChoiceVal NULL="0">66</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-mscardfile (crd)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">67.000000</SequenceNo>
+					<ChoiceVal NULL="0">67</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msclip (clp)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">68.000000</SequenceNo>
+					<ChoiceVal NULL="0">68</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msdownload (dll)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">69.000000</SequenceNo>
+					<ChoiceVal NULL="0">69</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msmediaview (m13)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">70.000000</SequenceNo>
+					<ChoiceVal NULL="0">70</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msmediaview (m14)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">71.000000</SequenceNo>
+					<ChoiceVal NULL="0">71</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msmediaview (mvb)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">72.000000</SequenceNo>
+					<ChoiceVal NULL="0">72</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msmetafile (wmf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">73.000000</SequenceNo>
+					<ChoiceVal NULL="0">73</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msmoney (mny)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">74.000000</SequenceNo>
+					<ChoiceVal NULL="0">74</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-mspublisher (pub)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">75.000000</SequenceNo>
+					<ChoiceVal NULL="0">75</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msschedule (scd)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">76.000000</SequenceNo>
+					<ChoiceVal NULL="0">76</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-msterminal (trm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">77.000000</SequenceNo>
+					<ChoiceVal NULL="0">77</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-mswrite (wri)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">78.000000</SequenceNo>
+					<ChoiceVal NULL="0">78</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-netcdf (cdf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">79.000000</SequenceNo>
+					<ChoiceVal NULL="0">79</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-netcdf (nc)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">80.000000</SequenceNo>
+					<ChoiceVal NULL="0">80</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-perfmon (pma)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">81.000000</SequenceNo>
+					<ChoiceVal NULL="0">81</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-perfmon (pmc)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">82.000000</SequenceNo>
+					<ChoiceVal NULL="0">82</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-perfmon (pml)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">83.000000</SequenceNo>
+					<ChoiceVal NULL="0">83</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-perfmon (pmr)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">84.000000</SequenceNo>
+					<ChoiceVal NULL="0">84</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-perfmon (pmw)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">85.000000</SequenceNo>
+					<ChoiceVal NULL="0">85</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-pkcs12 (p12)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">86.000000</SequenceNo>
+					<ChoiceVal NULL="0">86</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-pkcs12 (pfx)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">87.000000</SequenceNo>
+					<ChoiceVal NULL="0">87</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-pkcs7-certificates (p7b)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">88.000000</SequenceNo>
+					<ChoiceVal NULL="0">88</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-pkcs7-certificates (spc)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">89.000000</SequenceNo>
+					<ChoiceVal NULL="0">89</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-pkcs7-certreqresp (p7r)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">90.000000</SequenceNo>
+					<ChoiceVal NULL="0">90</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-pkcs7-mime (p7c)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">91.000000</SequenceNo>
+					<ChoiceVal NULL="0">91</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-pkcs7-mime (p7m)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">92.000000</SequenceNo>
+					<ChoiceVal NULL="0">92</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-pkcs7-signature (p7s)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">93.000000</SequenceNo>
+					<ChoiceVal NULL="0">93</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-sh (sh)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">94.000000</SequenceNo>
+					<ChoiceVal NULL="0">94</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-shar (shar)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">95.000000</SequenceNo>
+					<ChoiceVal NULL="0">95</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-shockwave-flash (swf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">96.000000</SequenceNo>
+					<ChoiceVal NULL="0">96</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-stuffit (sit)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">97.000000</SequenceNo>
+					<ChoiceVal NULL="0">97</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-sv4cpio (sv4cpio)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">98.000000</SequenceNo>
+					<ChoiceVal NULL="0">98</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-sv4crc (sv4crc)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">99.000000</SequenceNo>
+					<ChoiceVal NULL="0">99</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-tar (tar)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">100.000000</SequenceNo>
+					<ChoiceVal NULL="0">100</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-tcl (tcl)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">101.000000</SequenceNo>
+					<ChoiceVal NULL="0">101</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-tex (tex)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">102.000000</SequenceNo>
+					<ChoiceVal NULL="0">102</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-texinfo (texi)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">103.000000</SequenceNo>
+					<ChoiceVal NULL="0">103</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-texinfo (texinfo)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">104.000000</SequenceNo>
+					<ChoiceVal NULL="0">104</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-troff (roff)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">105.000000</SequenceNo>
+					<ChoiceVal NULL="0">105</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-troff (t)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">106.000000</SequenceNo>
+					<ChoiceVal NULL="0">106</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-troff (tr)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">107.000000</SequenceNo>
+					<ChoiceVal NULL="0">107</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-troff-man (man)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">108.000000</SequenceNo>
+					<ChoiceVal NULL="0">108</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-troff-me (me)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">109.000000</SequenceNo>
+					<ChoiceVal NULL="0">109</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-troff-ms (ms)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">110.000000</SequenceNo>
+					<ChoiceVal NULL="0">110</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-ustar (ustar)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">111.000000</SequenceNo>
+					<ChoiceVal NULL="0">111</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-wais-source (src)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">112.000000</SequenceNo>
+					<ChoiceVal NULL="0">112</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-x509-ca-cert (cer)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">113.000000</SequenceNo>
+					<ChoiceVal NULL="0">113</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-x509-ca-cert (crt)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">114.000000</SequenceNo>
+					<ChoiceVal NULL="0">114</ChoiceVal>
+					<ChoiceDesc NULL="0">application/x-x509-ca-cert (der)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">115.000000</SequenceNo>
+					<ChoiceVal NULL="0">115</ChoiceVal>
+					<ChoiceDesc NULL="0">application/ynd.ms-pkipko (pko)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">116.000000</SequenceNo>
+					<ChoiceVal NULL="0">116</ChoiceVal>
+					<ChoiceDesc NULL="0">application/zip (zip)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">117.000000</SequenceNo>
+					<ChoiceVal NULL="0">117</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/basic (au)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">118.000000</SequenceNo>
+					<ChoiceVal NULL="0">118</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/basic (snd)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">119.000000</SequenceNo>
+					<ChoiceVal NULL="0">119</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/mid (mid)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">120.000000</SequenceNo>
+					<ChoiceVal NULL="0">120</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/mid (rmi)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">121.000000</SequenceNo>
+					<ChoiceVal NULL="0">121</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/mpeg (mp3)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">122.000000</SequenceNo>
+					<ChoiceVal NULL="0">122</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/x-aiff (aif)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">123.000000</SequenceNo>
+					<ChoiceVal NULL="0">123</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/x-aiff (aifc)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">124.000000</SequenceNo>
+					<ChoiceVal NULL="0">124</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/x-aiff (aiff)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">125.000000</SequenceNo>
+					<ChoiceVal NULL="0">125</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/x-mpegurl (m3u)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">126.000000</SequenceNo>
+					<ChoiceVal NULL="0">126</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/x-pn-realaudio (ra)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">127.000000</SequenceNo>
+					<ChoiceVal NULL="0">127</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/x-pn-realaudio (ram)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">128.000000</SequenceNo>
+					<ChoiceVal NULL="0">128</ChoiceVal>
+					<ChoiceDesc NULL="0">audio/x-wav (wav)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">129.000000</SequenceNo>
+					<ChoiceVal NULL="0">129</ChoiceVal>
+					<ChoiceDesc NULL="0">image/bmp (bmp)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">130.000000</SequenceNo>
+					<ChoiceVal NULL="0">130</ChoiceVal>
+					<ChoiceDesc NULL="0">image/cis-cod (cod)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">131.000000</SequenceNo>
+					<ChoiceVal NULL="0">131</ChoiceVal>
+					<ChoiceDesc NULL="0">image/gif (gif)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">132.000000</SequenceNo>
+					<ChoiceVal NULL="0">132</ChoiceVal>
+					<ChoiceDesc NULL="0">image/ief (ief)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">133.000000</SequenceNo>
+					<ChoiceVal NULL="0">133</ChoiceVal>
+					<ChoiceDesc NULL="0">image/jpeg (jpe)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">134.000000</SequenceNo>
+					<ChoiceVal NULL="0">134</ChoiceVal>
+					<ChoiceDesc NULL="0">image/jpeg (jpeg)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">135.000000</SequenceNo>
+					<ChoiceVal NULL="0">135</ChoiceVal>
+					<ChoiceDesc NULL="0">image/jpeg (jpg)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">136.000000</SequenceNo>
+					<ChoiceVal NULL="0">136</ChoiceVal>
+					<ChoiceDesc NULL="0">image/pipeg (jfif)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">137.000000</SequenceNo>
+					<ChoiceVal NULL="0">137</ChoiceVal>
+					<ChoiceDesc NULL="0">image/png (png)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">138.000000</SequenceNo>
+					<ChoiceVal NULL="0">138</ChoiceVal>
+					<ChoiceDesc NULL="0">image/svg+xml (svg)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">139.000000</SequenceNo>
+					<ChoiceVal NULL="0">139</ChoiceVal>
+					<ChoiceDesc NULL="0">image/tiff (tif)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">140.000000</SequenceNo>
+					<ChoiceVal NULL="0">140</ChoiceVal>
+					<ChoiceDesc NULL="0">image/tiff (tiff)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">141.000000</SequenceNo>
+					<ChoiceVal NULL="0">141</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-cmu-raster (ras)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">142.000000</SequenceNo>
+					<ChoiceVal NULL="0">142</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-cmx (cmx)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">143.000000</SequenceNo>
+					<ChoiceVal NULL="0">143</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-icon (ico)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">144.000000</SequenceNo>
+					<ChoiceVal NULL="0">144</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-portable-anymap (pnm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">145.000000</SequenceNo>
+					<ChoiceVal NULL="0">145</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-portable-bitmap (pbm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">146.000000</SequenceNo>
+					<ChoiceVal NULL="0">146</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-portable-graymap (pgm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">147.000000</SequenceNo>
+					<ChoiceVal NULL="0">147</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-portable-pixmap (ppm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">148.000000</SequenceNo>
+					<ChoiceVal NULL="0">148</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-rgb (rgb)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">149.000000</SequenceNo>
+					<ChoiceVal NULL="0">149</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-xbitmap (xbm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">150.000000</SequenceNo>
+					<ChoiceVal NULL="0">150</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-xpixmap (xpm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">151.000000</SequenceNo>
+					<ChoiceVal NULL="0">151</ChoiceVal>
+					<ChoiceDesc NULL="0">image/x-xwindowdump (xwd)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">152.000000</SequenceNo>
+					<ChoiceVal NULL="0">152</ChoiceVal>
+					<ChoiceDesc NULL="0">message/rfc822 (mht)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">153.000000</SequenceNo>
+					<ChoiceVal NULL="0">153</ChoiceVal>
+					<ChoiceDesc NULL="0">message/rfc822 (mhtml)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">154.000000</SequenceNo>
+					<ChoiceVal NULL="0">154</ChoiceVal>
+					<ChoiceDesc NULL="0">message/rfc822 (nws)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">155.000000</SequenceNo>
+					<ChoiceVal NULL="0">155</ChoiceVal>
+					<ChoiceDesc NULL="0">text/css (css)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">156.000000</SequenceNo>
+					<ChoiceVal NULL="0">156</ChoiceVal>
+					<ChoiceDesc NULL="0">text/h323 (323)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">157.000000</SequenceNo>
+					<ChoiceVal NULL="0">157</ChoiceVal>
+					<ChoiceDesc NULL="0">text/html (htm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">158.000000</SequenceNo>
+					<ChoiceVal NULL="0">158</ChoiceVal>
+					<ChoiceDesc NULL="0">text/html (html)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">159.000000</SequenceNo>
+					<ChoiceVal NULL="0">159</ChoiceVal>
+					<ChoiceDesc NULL="0">text/html (stm)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">160.000000</SequenceNo>
+					<ChoiceVal NULL="0">160</ChoiceVal>
+					<ChoiceDesc NULL="0">text/iuls (uls)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">161.000000</SequenceNo>
+					<ChoiceVal NULL="0">161</ChoiceVal>
+					<ChoiceDesc NULL="0">text/plain (bas)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">162.000000</SequenceNo>
+					<ChoiceVal NULL="0">162</ChoiceVal>
+					<ChoiceDesc NULL="0">text/plain (c)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">163.000000</SequenceNo>
+					<ChoiceVal NULL="0">163</ChoiceVal>
+					<ChoiceDesc NULL="0">text/plain (h)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">164.000000</SequenceNo>
+					<ChoiceVal NULL="0">164</ChoiceVal>
+					<ChoiceDesc NULL="0">text/plain (txt)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">165.000000</SequenceNo>
+					<ChoiceVal NULL="0">165</ChoiceVal>
+					<ChoiceDesc NULL="0">text/richtext (rtx)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">166.000000</SequenceNo>
+					<ChoiceVal NULL="0">166</ChoiceVal>
+					<ChoiceDesc NULL="0">text/scriptlet (sct)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">167.000000</SequenceNo>
+					<ChoiceVal NULL="0">167</ChoiceVal>
+					<ChoiceDesc NULL="0">text/tab-separated-values (tsv)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">168.000000</SequenceNo>
+					<ChoiceVal NULL="0">168</ChoiceVal>
+					<ChoiceDesc NULL="0">text/webviewhtml (htt)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">169.000000</SequenceNo>
+					<ChoiceVal NULL="0">169</ChoiceVal>
+					<ChoiceDesc NULL="0">text/x-component (htc)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">170.000000</SequenceNo>
+					<ChoiceVal NULL="0">170</ChoiceVal>
+					<ChoiceDesc NULL="0">text/x-setext (etx)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">171.000000</SequenceNo>
+					<ChoiceVal NULL="0">171</ChoiceVal>
+					<ChoiceDesc NULL="0">text/x-vcard (vcf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">172.000000</SequenceNo>
+					<ChoiceVal NULL="0">172</ChoiceVal>
+					<ChoiceDesc NULL="0">video/mpeg (mp2)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">173.000000</SequenceNo>
+					<ChoiceVal NULL="0">173</ChoiceVal>
+					<ChoiceDesc NULL="0">video/mpeg (mpa)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">174.000000</SequenceNo>
+					<ChoiceVal NULL="0">174</ChoiceVal>
+					<ChoiceDesc NULL="0">video/mpeg (mpe)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">175.000000</SequenceNo>
+					<ChoiceVal NULL="0">175</ChoiceVal>
+					<ChoiceDesc NULL="0">video/mpeg (mpeg)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">176.000000</SequenceNo>
+					<ChoiceVal NULL="0">176</ChoiceVal>
+					<ChoiceDesc NULL="0">video/mpeg (mpg)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">177.000000</SequenceNo>
+					<ChoiceVal NULL="0">177</ChoiceVal>
+					<ChoiceDesc NULL="0">video/mpeg (mpv2)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">178.000000</SequenceNo>
+					<ChoiceVal NULL="0">178</ChoiceVal>
+					<ChoiceDesc NULL="0">video/quicktime (mov)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">179.000000</SequenceNo>
+					<ChoiceVal NULL="0">179</ChoiceVal>
+					<ChoiceDesc NULL="0">video/quicktime (qt)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">180.000000</SequenceNo>
+					<ChoiceVal NULL="0">180</ChoiceVal>
+					<ChoiceDesc NULL="0">video/x-la-asf (lsf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">181.000000</SequenceNo>
+					<ChoiceVal NULL="0">181</ChoiceVal>
+					<ChoiceDesc NULL="0">video/x-la-asf (lsx)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">182.000000</SequenceNo>
+					<ChoiceVal NULL="0">182</ChoiceVal>
+					<ChoiceDesc NULL="0">video/x-ms-asf (asf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">183.000000</SequenceNo>
+					<ChoiceVal NULL="0">183</ChoiceVal>
+					<ChoiceDesc NULL="0">video/x-ms-asf (asr)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">184.000000</SequenceNo>
+					<ChoiceVal NULL="0">184</ChoiceVal>
+					<ChoiceDesc NULL="0">video/x-ms-asf (asx)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">185.000000</SequenceNo>
+					<ChoiceVal NULL="0">185</ChoiceVal>
+					<ChoiceDesc NULL="0">video/x-msvideo (avi)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">186.000000</SequenceNo>
+					<ChoiceVal NULL="0">186</ChoiceVal>
+					<ChoiceDesc NULL="0">video/x-sgi-movie (movie)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">187.000000</SequenceNo>
+					<ChoiceVal NULL="0">187</ChoiceVal>
+					<ChoiceDesc NULL="0">x-world/x-vrml (flr)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">188.000000</SequenceNo>
+					<ChoiceVal NULL="0">188</ChoiceVal>
+					<ChoiceDesc NULL="0">x-world/x-vrml (vrml)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">189.000000</SequenceNo>
+					<ChoiceVal NULL="0">189</ChoiceVal>
+					<ChoiceDesc NULL="0">x-world/x-vrml (wrl)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">190.000000</SequenceNo>
+					<ChoiceVal NULL="0">190</ChoiceVal>
+					<ChoiceDesc NULL="0">x-world/x-vrml (wrz)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">191.000000</SequenceNo>
+					<ChoiceVal NULL="0">191</ChoiceVal>
+					<ChoiceDesc NULL="0">x-world/x-vrml (xaf)</ChoiceDesc>
+				</Entity>
+				<Entity>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+					<SequenceNo NULL="0">192.000000</SequenceNo>
+					<ChoiceVal NULL="0">192</ChoiceVal>
+					<ChoiceDesc NULL="0">x-world/x-vrml (xof)</ChoiceDesc>
+				</Entity>
+			</EntityList>
+			<EntityList Name="D3MetaKey">
+				<Entity>
+					<ID NULL="0">292</ID>
+					<MetaEntityID NULL="0">104</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSTopic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">31</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">293</ID>
+					<MetaEntityID NULL="0">104</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">SK_HSTopic</Name>
+					<ProsaName NULL="0">By title</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">163</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">294</ID>
+					<MetaEntityID NULL="0">105</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSTopicAssociation</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">83</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">295</ID>
+					<MetaEntityID NULL="0">105</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">FK_HSTopicAssociation_ChildTopic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">64</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">296</ID>
+					<MetaEntityID NULL="0">106</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSTopicLink</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">83</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">297</ID>
+					<MetaEntityID NULL="0">106</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">FK_HSTopicLink_ToTopic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">64</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">298</ID>
+					<MetaEntityID NULL="0">107</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSMetaDatabaseTopic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">91</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">299</ID>
+					<MetaEntityID NULL="0">107</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">FK_HSMetaDatabaseTopic_Topic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">72</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">300</ID>
+					<MetaEntityID NULL="0">108</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSMetaEntityTopic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">91</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">301</ID>
+					<MetaEntityID NULL="0">108</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">FK_HSMetaEntityTopic_Topic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">72</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">302</ID>
+					<MetaEntityID NULL="0">109</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSMetaColumnTopic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">91</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">303</ID>
+					<MetaEntityID NULL="0">109</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">FK_HSMetaColumnTopic_Topic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">72</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">304</ID>
+					<MetaEntityID NULL="0">110</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSMetaKeyTopic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">91</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">305</ID>
+					<MetaEntityID NULL="0">110</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">FK_HSMetaKeyTopic_Topic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">72</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">306</ID>
+					<MetaEntityID NULL="0">111</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSMetaRelationTopic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">91</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">307</ID>
+					<MetaEntityID NULL="0">111</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">FK_HSMetaRelationTopic_Topic</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">72</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">308</ID>
+					<MetaEntityID NULL="0">112</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSResourceUsage</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">91</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">309</ID>
+					<MetaEntityID NULL="0">112</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">FK_HSResourceUsage_Resource</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">72</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">310</ID>
+					<MetaEntityID NULL="0">113</MetaEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">PK_HSResource</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">23</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">311</ID>
+					<MetaEntityID NULL="0">113</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">SK_HSResource</Name>
+					<ProsaName NULL="1"></ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">InstanceKey</InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">163</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">361</ID>
+					<MetaEntityID NULL="0">124</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">PK_Student</Name>
+					<ProsaName NULL="0">Student ID</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">23</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">362</ID>
+					<MetaEntityID NULL="0">124</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">SK_Student</Name>
+					<ProsaName NULL="0">Student Name</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">160</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">363</ID>
+					<MetaEntityID NULL="0">125</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">PK_Teacher</Name>
+					<ProsaName NULL="0">Teacher ID</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">23</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">364</ID>
+					<MetaEntityID NULL="0">125</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">SK_Teacher</Name>
+					<ProsaName NULL="0">Teacher Name</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">128</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">365</ID>
+					<MetaEntityID NULL="0">126</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">SK_Subject</Name>
+					<ProsaName NULL="0">Subject</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">163</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">366</ID>
+					<MetaEntityID NULL="0">127</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">SK_SubjectClass</Name>
+					<ProsaName NULL="0">Class</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">163</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">368</ID>
+					<MetaEntityID NULL="0">127</MetaEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">FK_SubjectClass_Teacher</Name>
+					<ProsaName NULL="0">Teacher</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">65</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">369</ID>
+					<MetaEntityID NULL="0">127</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">PK_SubjectClass</Name>
+					<ProsaName NULL="0">Class</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">23</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">370</ID>
+					<MetaEntityID NULL="0">128</MetaEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">PK_Enrolment</Name>
+					<ProsaName NULL="0">Enrolment</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">147</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">371</ID>
+					<MetaEntityID NULL="0">128</MetaEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">FK_Enrolment_Student</Name>
+					<ProsaName NULL="0">Student</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">1</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+				<Entity>
+					<ID NULL="0">372</ID>
+					<MetaEntityID NULL="0">126</MetaEntityID>
+					<SequenceNo NULL="0">0.500000</SequenceNo>
+					<Name NULL="0">PK_Subject</Name>
+					<ProsaName NULL="0">By ID</ProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSViewClass NULL="1"></JSViewClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<Flags NULL="0">23</Flags>
+					<Description NULL="1"></Description>
+				</Entity>
+			</EntityList>
+			<EntityList Name="D3MetaKeyColumn">
+				<Entity>
+					<MetaKeyID NULL="0">292</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1279</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">293</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1280</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">294</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1284</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">294</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1285</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">294</MetaKeyID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<MetaColumnID NULL="0">1286</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">295</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1285</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">296</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1287</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">296</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1288</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">297</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1288</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">298</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1290</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">298</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1289</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">299</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1289</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">300</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1292</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">300</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1293</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">300</MetaKeyID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<MetaColumnID NULL="0">1291</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">301</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1291</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">302</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1295</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">302</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1296</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">302</MetaKeyID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<MetaColumnID NULL="0">1297</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">302</MetaKeyID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<MetaColumnID NULL="0">1294</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">303</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1294</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">304</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1299</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">304</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1300</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">304</MetaKeyID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<MetaColumnID NULL="0">1301</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">304</MetaKeyID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<MetaColumnID NULL="0">1298</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">305</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1298</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">306</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1303</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">306</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1304</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">306</MetaKeyID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<MetaColumnID NULL="0">1305</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">306</MetaKeyID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<MetaColumnID NULL="0">1302</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">307</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1302</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">308</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1307</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">308</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1308</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">309</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1308</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">310</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1309</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">311</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1310</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">311</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1313</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">361</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1616</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">362</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1618</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">362</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1617</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">363</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1620</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">364</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1622</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">364</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1621</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">365</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1623</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">365</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1624</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">366</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1625</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">366</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1626</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">368</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1626</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">369</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1628</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">370</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1629</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">370</MetaKeyID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<MetaColumnID NULL="0">1630</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">371</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1630</MetaColumnID>
+				</Entity>
+				<Entity>
+					<MetaKeyID NULL="0">372</MetaKeyID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<MetaColumnID NULL="0">1631</MetaColumnID>
+				</Entity>
+			</EntityList>
+			<EntityList Name="D3MetaRelation">
+				<Entity>
+					<ID NULL="0">168</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">294</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">ChildTopics</Name>
+					<ProsaName NULL="0">Childtopics</ProsaName>
+					<ReverseName NULL="0">ParentTopic</ReverseName>
+					<ReverseProsaName NULL="0">Parenttopic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::ChildTopics</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">169</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">297</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">3.000000</SequenceNo>
+					<Name NULL="0">LinkedFromTopics</Name>
+					<ProsaName NULL="0">Linkedfromtopics</ProsaName>
+					<ReverseName NULL="0">ToTopic</ReverseName>
+					<ReverseProsaName NULL="0">Totopic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::LinkedFromTopics</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">170</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">296</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">LinksToTopics</Name>
+					<ProsaName NULL="0">Linkstotopics</ProsaName>
+					<ReverseName NULL="0">FromTopic</ReverseName>
+					<ReverseProsaName NULL="0">Fromtopic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::LinksToTopics</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">171</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">303</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">7.000000</SequenceNo>
+					<Name NULL="0">MetaColumns</Name>
+					<ProsaName NULL="0">Metacolumns</ProsaName>
+					<ReverseName NULL="0">Topic</ReverseName>
+					<ReverseProsaName NULL="0">Topic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::MetaColumns</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">172</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">299</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">5.000000</SequenceNo>
+					<Name NULL="0">MetaDatabases</Name>
+					<ProsaName NULL="0">Metadatabases</ProsaName>
+					<ReverseName NULL="0">Topic</ReverseName>
+					<ReverseProsaName NULL="0">Topic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::MetaDatabases</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">173</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">301</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">6.000000</SequenceNo>
+					<Name NULL="0">MetaEntities</Name>
+					<ProsaName NULL="0">Metaentities</ProsaName>
+					<ReverseName NULL="0">Topic</ReverseName>
+					<ReverseProsaName NULL="0">Topic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::MetaEntities</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">174</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">305</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">8.000000</SequenceNo>
+					<Name NULL="0">MetaKeys</Name>
+					<ProsaName NULL="0">Metakeys</ProsaName>
+					<ReverseName NULL="0">Topic</ReverseName>
+					<ReverseProsaName NULL="0">Topic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::MetaKeys</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">175</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">307</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">9.000000</SequenceNo>
+					<Name NULL="0">MetaRelations</Name>
+					<ProsaName NULL="0">Metarelations</ProsaName>
+					<ReverseName NULL="0">Topic</ReverseName>
+					<ReverseProsaName NULL="0">Topic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::MetaRelations</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">176</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">295</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">ParentTopics</Name>
+					<ProsaName NULL="0">Parenttopics</ProsaName>
+					<ReverseName NULL="0">ChildTopic</ReverseName>
+					<ReverseProsaName NULL="0">Childtopic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::ParentTopics</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">177</ID>
+					<ParentKeyID NULL="0">292</ParentKeyID>
+					<ChildKeyID NULL="0">308</ChildKeyID>
+					<ParentEntityID NULL="0">104</ParentEntityID>
+					<SequenceNo NULL="0">4.000000</SequenceNo>
+					<Name NULL="0">ResourceUsages</Name>
+					<ProsaName NULL="0">Resourceusages</ProsaName>
+					<ReverseName NULL="0">Topic</ReverseName>
+					<ReverseProsaName NULL="0">Topic</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSTopicBase::ResourceUsages</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">178</ID>
+					<ParentKeyID NULL="0">310</ParentKeyID>
+					<ChildKeyID NULL="0">309</ChildKeyID>
+					<ParentEntityID NULL="0">113</ParentEntityID>
+					<SequenceNo NULL="0">0.000000</SequenceNo>
+					<Name NULL="0">ResourceUsages</Name>
+					<ProsaName NULL="0">Resourceusages</ProsaName>
+					<ReverseName NULL="0">Resource</ReverseName>
+					<ReverseProsaName NULL="0">Resource</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="0">HSResourceBase::ResourceUsages</InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">205</ID>
+					<ParentKeyID NULL="0">363</ParentKeyID>
+					<ChildKeyID NULL="0">368</ChildKeyID>
+					<ParentEntityID NULL="0">125</ParentEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">Classes</Name>
+					<ProsaName NULL="0">Classes</ProsaName>
+					<ReverseName NULL="0">Teacher</ReverseName>
+					<ReverseProsaName NULL="0">Teacher</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">206</ID>
+					<ParentKeyID NULL="0">372</ParentKeyID>
+					<ChildKeyID NULL="0">366</ChildKeyID>
+					<ParentEntityID NULL="0">126</ParentEntityID>
+					<SequenceNo NULL="0">1.000000</SequenceNo>
+					<Name NULL="0">Classes</Name>
+					<ProsaName NULL="0">Classes</ProsaName>
+					<ReverseName NULL="0">Subjects</ReverseName>
+					<ReverseProsaName NULL="0">Subjects</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">207</ID>
+					<ParentKeyID NULL="0">361</ParentKeyID>
+					<ChildKeyID NULL="0">371</ChildKeyID>
+					<ParentEntityID NULL="0">124</ParentEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">Enrolments</Name>
+					<ProsaName NULL="0">Enrolments</ProsaName>
+					<ReverseName NULL="0">Student</ReverseName>
+					<ReverseProsaName NULL="0">Student</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+				<Entity>
+					<ID NULL="0">208</ID>
+					<ParentKeyID NULL="0">369</ParentKeyID>
+					<ChildKeyID NULL="0">370</ChildKeyID>
+					<ParentEntityID NULL="0">127</ParentEntityID>
+					<SequenceNo NULL="0">2.000000</SequenceNo>
+					<Name NULL="0">Enrolments</Name>
+					<ProsaName NULL="0">Enrolments</ProsaName>
+					<ReverseName NULL="0">Class</ReverseName>
+					<ReverseProsaName NULL="0">Class</ReverseProsaName>
+					<MetaClass NULL="1"></MetaClass>
+					<InstanceClass NULL="1"></InstanceClass>
+					<InstanceInterface NULL="1"></InstanceInterface>
+					<JSMetaClass NULL="1"></JSMetaClass>
+					<JSInstanceClass NULL="1"></JSInstanceClass>
+					<JSParentViewClass NULL="1"></JSParentViewClass>
+					<JSChildViewClass NULL="1"></JSChildViewClass>
+					<Flags NULL="0">257</Flags>
+					<SwitchColumnID NULL="1"></SwitchColumnID>
+					<SwitchColumnValue NULL="1"></SwitchColumnValue>
+					<Description NULL="1"></Description>
+					<ReverseDescription NULL="1"></ReverseDescription>
+				</Entity>
+			</EntityList>
+		</Database>
+	</DatabaseList>
+</APALDBData>

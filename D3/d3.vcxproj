@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F56D3BB3-B309-4514-AC54-6763E1C5CA76}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>d3</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)_$(PlatformName)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)_$(PlatformName)\</IntDir>
+    <LibraryPath>C:\Development\Libs-Win32-x64\CenterPoint XML DOM\XML-02_01_07\Win32\Debug-static-vc100;C:\Development\Libs-Win32-x64\jsoncpp\build\VC100\debug;C:\Program Files %28x86%29\ZeroC\Ice-3.4.1\lib\vc100;C:\Development\Libs-Win32-x64\libodbc++\Debug-vc100-mt-gd\Win32;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>C:\Program Files (x86)\ZeroC\Ice-3.4.1\bin\vc100;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files %28x86%29\ZeroC\Ice-3.4.1\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)_$(PlatformName)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)_$(PlatformName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;APAL_SUPPORT_ODBC;OTL_ORA11G_R2;D3_CREATEDLL;_DEBUG;_WINDOWS;_USRDLL;D3_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>D3Types.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cslxml_2_1_7-vc100-mtsd.lib;json_vc100_libmdd.lib;libodbc-vc100-mt-gd-0_4_2.lib;wjelementd.lib;wjelement-cppd.lib;ws2_32.lib;oci.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\APALUtil\Debug_Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetPath)" "$(SolutionDir)Test\Debug_Win32"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;APAL_SUPPORT_ODBC;D3_EXPORTS;NDEBUG;_WINDOWS;_USRDLL;D3_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>D3Types.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>.;..\APALUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>APALUtil.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Codec.h" />
+    <ClInclude Include="Column.h" />
+    <ClInclude Include="D3.h" />
+    <ClInclude Include="D3BitMask.h" />
+    <ClInclude Include="D3ColumnPermission.h" />
+    <ClInclude Include="D3ColumnPermissionBase.h" />
+    <ClInclude Include="D3CustomTypes.h" />
+    <ClInclude Include="D3DatabasePermission.h" />
+    <ClInclude Include="D3DatabasePermissionBase.h" />
+    <ClInclude Include="D3Date.h" />
+    <ClInclude Include="D3EntityPermission.h" />
+    <ClInclude Include="D3EntityPermissionBase.h" />
+    <ClInclude Include="D3Funcs.h" />
+    <ClInclude Include="D3HistoricPassword.h" />
+    <ClInclude Include="D3HistoricPasswordBase.h" />
+    <ClInclude Include="D3HSDB.h" />
+    <ClInclude Include="D3MDDB.h" />
+    <ClInclude Include="D3MetaColumn.h" />
+    <ClInclude Include="D3MetaColumnBase.h" />
+    <ClInclude Include="D3MetaColumnChoice.h" />
+    <ClInclude Include="D3MetaColumnChoiceBase.h" />
+    <ClInclude Include="D3MetaDatabase.h" />
+    <ClInclude Include="D3MetaDatabaseBase.h" />
+    <ClInclude Include="D3MetaEntity.h" />
+    <ClInclude Include="D3MetaEntityBase.h" />
+    <ClInclude Include="D3MetaKey.h" />
+    <ClInclude Include="D3MetaKeyBase.h" />
+    <ClInclude Include="D3MetaKeyColumn.h" />
+    <ClInclude Include="D3MetaKeyColumnBase.h" />
+    <ClInclude Include="D3MetaRelation.h" />
+    <ClInclude Include="D3MetaRelationBase.h" />
+    <ClInclude Include="D3Role.h" />
+    <ClInclude Include="D3RoleBase.h" />
+    <ClInclude Include="D3RoleUser.h" />
+    <ClInclude Include="D3RoleUserBase.h" />
+    <ClInclude Include="D3RowLevelPermission.h" />
+    <ClInclude Include="D3RowLevelPermissionBase.h" />
+    <ClInclude Include="D3Session.h" />
+    <ClInclude Include="D3SessionBase.h" />
+    <ClInclude Include="D3Types.h" />
+    <ClInclude Include="D3User.h" />
+    <ClInclude Include="D3UserBase.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="HSMetaColumnTopic.h" />
+    <ClInclude Include="HSMetaColumnTopicBase.h" />
+    <ClInclude Include="HSMetaDatabaseTopic.h" />
+    <ClInclude Include="HSMetaDatabaseTopicBase.h" />
+    <ClInclude Include="HSMetaEntityTopic.h" />
+    <ClInclude Include="HSMetaEntityTopicBase.h" />
+    <ClInclude Include="HSMetaKeyTopic.h" />
+    <ClInclude Include="HSMetaKeyTopicBase.h" />
+    <ClInclude Include="HSMetaRelationTopic.h" />
+    <ClInclude Include="HSMetaRelationTopicBase.h" />
+    <ClInclude Include="HSResource.h" />
+    <ClInclude Include="HSResourceBase.h" />
+    <ClInclude Include="HSResourceUsage.h" />
+    <ClInclude Include="HSResourceUsageBase.h" />
+    <ClInclude Include="HSTopic.h" />
+    <ClInclude Include="HSTopicAssociation.h" />
+    <ClInclude Include="HSTopicAssociationBase.h" />
+    <ClInclude Include="HSTopicBase.h" />
+    <ClInclude Include="HSTopicLink.h" />
+    <ClInclude Include="HSTopicLinkBase.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="MonitorFunctions.h" />
+    <ClInclude Include="ODBCDatabase.h" />
+    <ClInclude Include="OTLDatabase.h" />
+    <ClInclude Include="OTLParams.h" />
+    <ClInclude Include="Relation.h" />
+    <ClInclude Include="ResultSet.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="XMLImporterExporter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Codec.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Column.cpp" />
+    <ClCompile Include="D3.cpp" />
+    <ClCompile Include="D3ColumnPermission.cpp" />
+    <ClCompile Include="D3ColumnPermissionBase.cpp" />
+    <ClCompile Include="D3DatabasePermission.cpp" />
+    <ClCompile Include="D3DatabasePermissionBase.cpp" />
+    <ClCompile Include="D3Date.cpp" />
+    <ClCompile Include="D3EntityPermission.cpp" />
+    <ClCompile Include="D3EntityPermissionBase.cpp" />
+    <ClCompile Include="D3Funcs.cpp" />
+    <ClCompile Include="D3HistoricPassword.cpp" />
+    <ClCompile Include="D3HistoricPasswordBase.cpp" />
+    <ClCompile Include="D3MetaColumn.cpp" />
+    <ClCompile Include="D3MetaColumnBase.cpp" />
+    <ClCompile Include="D3MetaColumnChoice.cpp" />
+    <ClCompile Include="D3MetaColumnChoiceBase.cpp" />
+    <ClCompile Include="D3MetaDatabase.cpp" />
+    <ClCompile Include="D3MetaDatabaseBase.cpp" />
+    <ClCompile Include="D3MetaEntity.cpp" />
+    <ClCompile Include="D3MetaEntityBase.cpp" />
+    <ClCompile Include="D3MetaKey.cpp" />
+    <ClCompile Include="D3MetaKeyBase.cpp" />
+    <ClCompile Include="D3MetaKeyColumn.cpp" />
+    <ClCompile Include="D3MetaKeyColumnBase.cpp" />
+    <ClCompile Include="D3MetaRelation.cpp" />
+    <ClCompile Include="D3MetaRelationBase.cpp" />
+    <ClCompile Include="D3Role.cpp" />
+    <ClCompile Include="D3RoleBase.cpp" />
+    <ClCompile Include="D3RoleUser.cpp" />
+    <ClCompile Include="D3RoleUserBase.cpp" />
+    <ClCompile Include="D3RowLevelPermission.cpp" />
+    <ClCompile Include="D3RowLevelPermissionBase.cpp" />
+    <ClCompile Include="D3Session.cpp" />
+    <ClCompile Include="D3SessionBase.cpp" />
+    <ClCompile Include="D3Types.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D3Types.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D3Types.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D3User.cpp" />
+    <ClCompile Include="D3UserBase.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="HSMetaColumnTopic.cpp" />
+    <ClCompile Include="HSMetaColumnTopicBase.cpp" />
+    <ClCompile Include="HSMetaDatabaseTopic.cpp" />
+    <ClCompile Include="HSMetaDatabaseTopicBase.cpp" />
+    <ClCompile Include="HSMetaEntityTopic.cpp" />
+    <ClCompile Include="HSMetaEntityTopicBase.cpp" />
+    <ClCompile Include="HSMetaKeyTopic.cpp" />
+    <ClCompile Include="HSMetaKeyTopicBase.cpp" />
+    <ClCompile Include="HSMetaRelationTopic.cpp" />
+    <ClCompile Include="HSMetaRelationTopicBase.cpp" />
+    <ClCompile Include="HSResource.cpp" />
+    <ClCompile Include="HSResourceBase.cpp" />
+    <ClCompile Include="HSResourceUsage.cpp" />
+    <ClCompile Include="HSResourceUsageBase.cpp" />
+    <ClCompile Include="HSTopic.cpp" />
+    <ClCompile Include="HSTopicAssociation.cpp" />
+    <ClCompile Include="HSTopicAssociationBase.cpp" />
+    <ClCompile Include="HSTopicBase.cpp" />
+    <ClCompile Include="HSTopicLink.cpp" />
+    <ClCompile Include="HSTopicLinkBase.cpp" />
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="md5.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ODBCDatabase.cpp" />
+    <ClCompile Include="OTLDatabase.cpp" />
+    <ClCompile Include="Relation.cpp" />
+    <ClCompile Include="ResultSet.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="XMLImporterExporter.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

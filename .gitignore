@@ -26,3 +26,19 @@
 *.exe
 *.out
 *.app
+
+# Log files
+*.log
+
+# Visual Studio specific files
+Debug_Win32/
+Debug_x64/
+Debug/
+Release_Win32/
+Release_x64/
+Release/
+ipch/
+*.suo
+*.sdf
+*.user
+
