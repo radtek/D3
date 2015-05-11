@@ -19,7 +19,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <CharacterSet>NotSet</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>Windows7.1SDK</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -57,7 +57,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;NOMINMAX;APAL_SUPPORT_ODBC;OTL_ORA11G_R2;D3_CREATEDLL;_DEBUG;_WINDOWS;_USRDLL;D3_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;APAL_SUPPORT_ODBC;D3_CREATEDLL;_DEBUG;_WINDOWS;_USRDLL;D3_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>D3Types.h</PrecompiledHeaderFile>
       <AdditionalOptions>/Zm500 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -66,7 +66,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>cslxml_2_1_7-vc100-mtsd.lib;json_vc100_libmdd.lib;libodbc-vc100-mt-gd-0_4_2.lib;wjelementd.lib;wjelement-cppd.lib;ws2_32.lib;oci.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>cslxml_2_1_7-vc100-mtsd.lib;json_vc100_libmdd.lib;libodbc-vc100-mt-gd-0_4_2.lib;wjelementd.lib;wjelement-cppd.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)\APALUtil\Debug_Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
